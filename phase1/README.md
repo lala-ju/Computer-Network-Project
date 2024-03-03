@@ -53,9 +53,7 @@ The server and client can send messages to each other continuously until the cli
   ./client
   ```
 
-  3. you can start to send message with socket server by inputting your message. This is the figure you will get if you connect to the server successfully.
-
-  <img src="C:\Users\Lala\AppData\Roaming\Typora\typora-user-images\image-20231023183204347.png" alt="image-20231023183204347" style="zoom:80%;" />
+  3. you can start to send message with socket server by inputting your message. 
 
 - **How to terminate**	
 
@@ -98,7 +96,3 @@ Once the server is started, it can handle multiple requests from different clien
 - **View the page**
 
   We type in the link <u>localhost:8181</u> in the browser to reach to the personal page.
-
-  You can see something like this:
-
-  <img src="C:\Users\Lala\AppData\Roaming\Typora\typora-user-images\image-20231023185755843.png" alt="image-20231023185755843" style="zoom:80%;" />

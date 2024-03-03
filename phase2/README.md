@@ -20,8 +20,6 @@ The first page that the first-visited client will be directed to is the "registe
 
 The user has to input the username and password field. If the user input is not correct or some not desired input, the server will show the corresponding wrong message.
 
-<img src="C:\Users\Lala\AppData\Roaming\Typora\typora-user-images\image-20231225165438469.png" alt="image-20231225165438469" style="zoom:67%;" />
-
 - Register
   - make sure that the username is not repeated with the existed user data
   - username has to be at at least 1 character
@@ -39,10 +37,6 @@ Then the server will receive a POST request, then it will parse the request and 
 
 The server later will parse the `message.json` to display all the messages to the board from different user.
 
-Here is an example image of the message board:
-
-<img src="C:\Users\Lala\AppData\Roaming\Typora\typora-user-images\image-20231225165719429.png" alt="image-20231225165719429" style="zoom:67%;" />
-
 #### 3. MultiThread
 
 implemented with the `server.listen(10)`, so the web server can handle at most 10 client requests at the same time.
@@ -52,10 +46,6 @@ Since know the data we are transmitting is really small and fast. So, there is a
 #### 4. HTTPS Self-signed certificate
 
 I used the Openssl to generate and signed the certificate of this server. Then installed into my chrome browser.
-
-Here is the image that shows it is safe and have efficient certificate:
-
- <img src="C:\Users\Lala\Pictures\Screenshots\螢幕擷取畫面 2023-12-25 170051.png" style="zoom:67%;" />
 
 #### 5. Audio stream
 
